@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator"><b style="font-size: 30px;">SIMPLE CALCULATOR</b>
+        <input type="text" class="display" id="display" disabled>
+        <b style="font-size: 15px;">ATLANTIS</b>
+        <div class="buttons">
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button class="operator" onclick="press('/')">/</button>
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button class="operator" onclick="press('*')">*</button>
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button class="operator" onclick="press('-')">-</button>
+            <button onclick="press('0')">0</button>
+            <button onclick="press('.')">.</button>
+            <button class="equal" onclick="calculate()">=</button>
+            <button class="operator" onclick="press('+')">+</button>
+            <button class="clear" onclick="clearDisplay()">C</button>
+            <button class="del" onclick="backspace()">Del</button>
+            <button class="celsuis" onclick="convcelsuis()" >FahrToCel</button>
+            <button class="celsuis" onclick="convfahren()" > CelToFahr</button>
+        </div>
+    </div>
+
+   <script src="index - Copy.js"></script>
+
+
+
+</body>
+
+</html
